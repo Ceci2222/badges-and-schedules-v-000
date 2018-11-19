@@ -18,10 +18,10 @@ end
 
 def printer(array)
   speakers = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
-  batch_badge_creator.each do |badge|
+  batch_badge_creator(speakers).each do |badge|
     puts "#{badge}"
   end
-  assign_rooms.each do |room_assignment|
+  assign_rooms(speakers).each do |room_assignment|
     puts "#{room_assignment}"
   end
 end
