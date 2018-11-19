@@ -2,11 +2,10 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-
+speakers = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 def batch_badge_creator(array)
-  speakers = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
-  speakers.collect do |name|
-    badge_maker
+  array.collect do |name|
+    badge_maker(name)
   end
 end
   
