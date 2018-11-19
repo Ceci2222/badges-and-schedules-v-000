@@ -5,14 +5,14 @@ end
 speakers = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 def batch_badge_creator(array)
   array.collect do |name|
-    puts badge_maker(name)
+    badge_maker(name)
   end
 end
   
 def assign_rooms(array)
   room = 7
   array.collect do |name|
-   puts "Hello, #{name}! You'll be assigned to #{room}!"
+    "Hello, #{name}! You'll be assigned to #{room}!"
     room -= 1
   end
 end
