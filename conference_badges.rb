@@ -18,6 +18,6 @@ end
 
 def printer(array)
   speakers = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
-  print batch_badge_creator(speakers)
-  print assign_rooms(speakers)
+  puts batch_badge_creator(speakers)
+  puts assign_rooms(speakers)
 end
